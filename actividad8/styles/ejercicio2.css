@@ -1,0 +1,88 @@
+nav#mainMenu li {
+    display: inline;
+}
+nav#mainMenu {
+    background-color: #273649;
+}
+
+nav#mainMenu ul {
+    margin-left: 80%;
+}
+
+h1 {
+	background-image: url(../images/header-background.png);
+	background-repeat: repeat;
+}
+nav#secondaryMenu li {
+	display: inline;
+}
+nav#secondaryMenu ul {
+	margin-left: 20%;
+}
+nav#secondaryMenu {
+	background-color: gray;
+}
+
+article div img {
+	display: block;
+	margin:auto auto;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+article div h2{
+	text-align: center;
+}
+section {
+	border: 3px solid black;
+	margin-bottom: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+h3 {
+    background-image: url(../images/header-background.png);
+    color: white;
+}
+.actions {
+    height: 30px;
+	background-color: #273649;
+}
+.actions li{
+	display: inline;
+}
+.actionEdit {
+    text-decoration: none;
+    background: transparent url("../images/edit.png") center left no-repeat;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    border-radius: 10%;
+    position: relative;
+    top: .60em;
+}
+  
+.actionFlag {
+    text-decoration: none;
+    background: transparent url("../images/flag.png") left no-repeat;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    border-radius: 10%;
+    position: relative;
+    top: .60em;
+}
+footer {
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: #273649;
+}
+footer p {
+	color: white;
+}
+a {
+    color: #7bb4e7;
+    font-weight: bold;
+}

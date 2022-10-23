@@ -1,0 +1,56 @@
+html, body{
+    height:100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+p{
+    font-size: 30px;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+    height: 300px;
+}
+main{
+    background-color: blue;
+    position: relative;
+    height:100%;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+#suscribe{
+    background-color: gray;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+}
+#contenido{
+    background-color: yellow;
+    top: 0;
+    left: 2em;
+    right: 2em;
+    bottom: 12em;
+    position: absolute;
+}
+#bandera{
+    background-color: green;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+}
+
+#lima{
+    background-color: greenyellow;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+}
