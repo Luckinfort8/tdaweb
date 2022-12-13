@@ -28,8 +28,8 @@ public class TodoController {
     @PutMapping(value = "/updategenero/{id}")
     public  String updateGenero(@PathVariable Integer id, @RequestBody Genero genero){
         Genero updateGenero = todoRepository.findById(id).get();
-        updateGenero.setName(genero.getName());
-        updateGenero.setDescription(genero.getDescription());
+        updateGenero.setNombre(genero.getNombre());
+        updateGenero.setDescripcion(genero.getDescripcion());
         todoRepository.save(updateGenero);
         return "Genero actualizado";
     }
